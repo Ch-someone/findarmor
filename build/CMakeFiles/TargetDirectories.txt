@@ -1,0 +1,3 @@
+/home/dji/Desktop/findarmor_2023/build/CMakeFiles/edit_cache.dir
+/home/dji/Desktop/findarmor_2023/build/CMakeFiles/findarmor.dir
+/home/dji/Desktop/findarmor_2023/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="findarmor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Program Files\;CMake Files\..\..\..\Program Files\opencv\;CMake Files\..\..\..\Program Files\opencv\mingw-build\;CMake Files\..\..\..\Program Files\opencv\mingw-build\install\;CMake Files\..\..\..\Program Files\opencv\mingw-build\install\x64\;CMake Files\..\..\..\Program Files\opencv\mingw-build\install\x64\mingw\;CMake Files\..\..\..\Program Files\opencv\mingw-build\install\x64\mingw\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/program/RM/findarmor_daheng_adjust/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findarmor">
+				<Option output="D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/bin/findarmor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/program/RM/findarmor_daheng_adjust/Headers"/>
+					<Add directory="D:/Program Files/opencv/mingw-build/install/include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 findarmor"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findarmor/fast">
+				<Option output="D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/bin/findarmor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/program/RM/findarmor_daheng_adjust/Headers"/>
+					<Add directory="D:/Program Files/opencv/mingw-build/install/include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 findarmor/fast"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/program/RM/findarmor_daheng_adjust/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/program/RM/findarmor_daheng_adjust/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/program/RM/findarmor_daheng_adjust/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/Sources/anglesolve1.cpp">
+			<Option target="findarmor"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/Sources/armordetect1.cpp">
+			<Option target="findarmor"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/Sources/imgcre.cpp">
+			<Option target="findarmor"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/Sources/serial1.cpp">
+			<Option target="findarmor"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/main.cpp">
+			<Option target="findarmor"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/../../../Program Files/opencv/mingw-build/install/x64/mingw/lib/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Program Files\opencv\mingw-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/../../../Program Files/opencv/mingw-build/install/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Program Files\opencv\mingw-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/../../../Program Files/opencv/mingw-build/install/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Program Files\opencv\mingw-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/program/RM/findarmor_daheng_adjust/../../../Program Files/opencv/mingw-build/install/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Program Files\opencv\mingw-build\install\x64\mingw\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

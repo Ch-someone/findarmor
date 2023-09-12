@@ -1,0 +1,3 @@
+"D:\Program Files\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\findarmor.dir/objects.a
+D:\TDM-GCC-64\bin\ar.exe cr CMakeFiles\findarmor.dir/objects.a @CMakeFiles\findarmor.dir\objects1.rsp
+D:\TDM-GCC-64\bin\g++.exe  -std=c++11 -pthread -g -Wl,--whole-archive CMakeFiles\findarmor.dir/objects.a -Wl,--no-whole-archive -o bin\findarmor.exe -Wl,--out-implib,bin\libfindarmor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\findarmor.dir\linklibs.rsp
